@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/op01/node-cunet/issues"
   },
-  "homepage": "https://github.com/op01/node-cunet#readme"
+  "homepage": "https://github.com/op01/node-cunet#readme",
+  "dependencies": {
+    "axios": "^0.15.0"
+  }
 }
