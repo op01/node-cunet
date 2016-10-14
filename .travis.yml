@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: opkampitak@hotmail.com
+  api_key:
+    secure: w87brapDHtw9/8I+X2RafGRzLZl97LeWz1GJJ24KlUn+KgWUPm/UvGabHcn8BgqStJqPMUSR2rPyoFFObb2UmDOlkVtemgNHFp28/6CHzwlGGuJqKu1hVz1c1my5DFDcFtIba8WlsGdROHyMxqgUCkafR/Yyy3SsaUdIE1BuRbqpapgmZZvw9avoo2C4lYavHJvh2ReapgU7sFa/GeY+LasEP2QbTcQaUMHYySisMQGmXmVexlE6pW28Lzg2ZHE+dL37T/JyICalmrXwrmaiityGDJMZPA6IXFhFSV3F6dwc6vB/ShCvaMXpIrI+Gb/SGG2+8vQUr1NMv2vMd07LUmKMDMBBCPHVeAXuzhZj1A+Nq5Wjwj8mO3G5Z0N98KdF9/EIfhqo+zawuiJaDZqNl2fOP+yZhB7VM0B89sshmo5mpoaPSsiarxMnwz647EGvi11rMB46H5SZsRXZR8NzptRoI5xsLdbr148VMPbkuEi6MENRQjrA3h9yI5N7qIOhHGi1fRAQHZaptG/DvAzpEnnqEOhfiMiq8/BXY4ZVI7FrCVygNbelhVuyJRhaLKLSAXNJCoFWZhghA40aEHV66sa57sDUd/4WFU71d582DXHbRknxmtN2zn2NIacUwVm81Y6UZE2nS5bxVemCM897gbnFCFELLnrGDgTmoOF/zhU=
+  on:
+    tags: true
+    repo: op01/node-cunet
