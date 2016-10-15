@@ -1,5 +1,6 @@
-# node-cunet
+# node-cunet [![Build Status](https://travis-ci.org/op01/node-cunet.svg?branch=master)](https://travis-ci.org/op01/node-cunet)
 A library for authenticating with CUNET
+
 
 Example
 -------
